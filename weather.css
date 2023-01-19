@@ -92,7 +92,14 @@
     justify-content: center;
     color: rgb(255, 255, 255);
     font-family: inherit;
-    font-size: 80px;
+    /* font-size: 80px; */
+}
+
+.temp {
+    font-size: 70px;
+}
+.celsius {
+    font-size: 20px;
 }
 
 .wind {
