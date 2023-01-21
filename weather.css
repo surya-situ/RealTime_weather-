@@ -27,16 +27,33 @@
     width: 300px;
 }
 
-.input {
+.input-section {
     width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2px;
+
+}
+
+.input {
     padding: 10px;
     background-color: rgb(91, 91, 91);
     color: #ffffff;
     border-top-left-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: rgb(91, 91, 91);
+    color: #cdc6c6;
     border-top-right-radius: 10px;
     border: none;
     font-size: 20px;
     outline: none;
+    cursor: pointer;
 }
 
 .input:hover,
@@ -92,7 +109,6 @@
     justify-content: center;
     color: rgb(255, 255, 255);
     font-family: inherit;
-    /* font-size: 80px; */
 }
 
 .temp {
@@ -110,4 +126,10 @@
 .wind-icon {
     width: 30px;
     margin-right: 12px;
+}
+
+.wrong-data {
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }
