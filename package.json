@@ -1,0 +1,19 @@
+{
+  "name": "realtime_weather-",
+  "version": "1.0.0",
+  "description": "Weather app",
+  "main": "weather.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surya-situ/RealTime_weather-.git"
+  },
+  "author": "Suryakanta Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surya-situ/RealTime_weather-/issues"
+  },
+  "homepage": "https://github.com/surya-situ/RealTime_weather-#readme"
+}
