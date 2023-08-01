@@ -2,7 +2,7 @@
   "name": "realtime_weather-",
   "version": "1.0.0",
   "description": "Weather app",
-  "main": "weather.html",
+  "main": "weather.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
